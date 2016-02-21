@@ -1,9 +1,15 @@
-<h2>Scopo del progetto</h2>
-Il progetto knowledge nasce con l'obiettivo di implementare un social network data driven. L'idea alla base del progetto è quella di permetter agli utenti di postare notizie, messaggi, foto o altro (liberamente, senza schemi fissi) e di implementare all'interno del sistem aalgoritmmi che estraggano le informazioni salienti (grazie alla geolocalizzazione e al contenuto postato) e di mostrare all'utente che accede al servizio cosa accade in quel momento nella sua zona e quali utenti sono a lui vicini. 
+<h2>Goal of the project</h2>
+Knowledge project is borned with the goal to implement a data driven social network. The idea behind the project is to let users post news, messages, photos or other(freely, without any fixed schema) and to implement in it an algorithm that extract relevant informations(thanks to geolocalization and what's posted) and to show to the user who use the service what happen in that moment in his place and what users are near to him
 
-<h2>Cosa abbiamo implementato</h2>
-Per l'hackhaton abbiamo implementato un piccolo sistema di posting che tiene conto della localizzazione dell'utente al momento del post. L'utente puòvisualizzare cosa accade in un raggio predefinito (modificbile) rispetto alla sua posozione. Inoltre, abbiamo implementato una versione molto grezza di TF IDF per poter estrearre le parole che hanno più rilevanza rispetto ai POST localizzati attorno all'utente. In questo modo abbiamo cercato di enfatizzare quale dovrebbe essere il funzionamento finale del nostro progetto. (Ovviamente in 48 ore è impossibile implemenare algorimti complessi ma TF IDF già da una idea di cosa accade). Se il sistem aviene usato e vengono inserite molte notizie il comportamento emergente è quello di mostrare le parole più importanti data una posizione e un certo raggio. 
-<h3>Chat localizzata</h3>
-Oltre alla generazione delle notizie pià importanti per un dato luogo abbiamo implementato il SOLO login di una chat geolovalizzata. Questa chat dovrebbe permettere agli utenti in una data regione geografica di comunicare senza dover passare per sistemi tipo facebook o altro (aggiunta amici etc)
-<h3>Implementazioni future</h3>
-Sicuramente, la prima implementazione che contiamo di mandare in fase di produzione è quella di una testata giornalistica event driven in cui chi pubblica non dovrà preoccuparsi di partizionare le notizie. Sarà il sistema a fornire agli utenti lettori quelle di maggiore interesse per loro.
+<h2>What we've implemented</h2>
+For the hackathon we have implemented a little posting service who use localization of the user at the time he write. The user can visualize what happen in a specific rage(can be modified) trough his position. We've implemented also a version really basic of TF IDF to extract most relevants words to POST localized near the user. So we tried to enfasize on what should be the final behaviour of our project. Obviously in 48 hours it's impossible to implement complexed algorithm but TF IDF is yet an idea on what happen). when system is used and a lot of news are pushed into the emerging behaviour is to show most important words given a position and a certain rage.
+
+
+<h3>Geolocalized chat</h3>
+Aside of the creation of the most important news given a place we've implemented only a login in a geolocalized chat. This chat should let users in a given geografic region talk without the help of systems like facebook or others(adding friends etc.) 
+
+
+<h3>Future implementations</h3>
+Surely the first implementation we aim to put in production is that one of a journal event driven in which everyone who publish will not have to worry about partitioning news. The system will give users the news that are much interesting for them.
+
+
